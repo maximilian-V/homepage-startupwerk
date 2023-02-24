@@ -3,6 +3,7 @@ import styles from './page.module.scss'
 
 import Hero from '@/components/Hero/Hero'
 import Navigation from '@/components/Navigation/Navigation'
+import BelowFold from '@/components/BelowFold/BelowFold.jsx'
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
       <div className={styles.sectionOneTwoBackgrounds}>
         <Navigation />
         <Hero />
+        <BelowFold />
       </div>
+
       
     </main>
   )

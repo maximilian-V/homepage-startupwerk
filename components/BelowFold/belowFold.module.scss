@@ -1,0 +1,33 @@
+.sectionWrapper {
+
+    padding: 0 0 0 120px;
+
+    h2 {
+        font-size: 80px;
+        color: #FBBD40;
+        margin-bottom: 60px;
+    }
+
+    p {
+        color: #fff;
+        font-family: Avenir, sans-serif;
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    .contentContainer {
+        display: flex;
+        position: relative;
+        .absoluteBlob {
+            position: relative;
+            bottom:120px;
+            left: -90px;
+        }
+        p {
+            margin-right: 80px;
+        }
+        img {
+            margin-right: -80px;
+        }
+    }
+}
