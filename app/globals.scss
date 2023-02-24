@@ -1,0 +1,77 @@
+// global variables
+$bg-grey: #1C272B; 
+$sw-yellow: #FBBD40;
+
+
+// avenir
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url('../public/fonts/avenir/avenir-light.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url('../public/fonts/avenir/avenir-regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url('../public/fonts/avenir/avenir-book.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url('../public/fonts/avenir/avenir-heavy.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url('../public/fonts/avenir/avenir-black.ttf') format('truetype');
+  font-weight: 700;
+}
+
+// ITC Avant Garde Gothic
+
+@font-face {
+  font-family: 'Itc';
+  src: local('Itc'), url('../public/fonts/itcAvantGarde/itc-medium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Itc';
+  src: local('Itc'), url('../public/fonts/itcAvantGarde/itc-bold.otf') format('opentype');
+  font-weight: 700;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
+
+
+body, html {
+  background-color: $bg-grey;
+}
+
+h1 {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Itc';
+  font-weight: 500;
+}
