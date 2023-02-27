@@ -1,6 +1,8 @@
 .wrapper {
+    max-height: 1200px;
     padding: 0 120px;
     margin-top: 180px;
+    margin-bottom: -390px;
     display: flex;
     z-index: 2;
 
@@ -9,17 +11,17 @@
 
      
         .blob {
-                position: absolute;
-                left: -130px;
+                position: relative;
+                left: -150px;
                 z-index: 1;
             }
 
         
         .imageWithText{
             display: flex;
-            position: absolute;
-            left: 0;
-            bottom: -90px;
+            position: relative;
+            left: -80px;
+            top: -74%;
             z-index: 2;
             gap: 20px
         }
@@ -31,6 +33,7 @@
                 }
                 font-size: 36px;
                 font-weight: 300;
+                color: #1C272B;
             }
             display: flex;
             flex-direction: column;

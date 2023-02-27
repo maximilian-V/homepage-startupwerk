@@ -1,0 +1,27 @@
+.wrapper {
+padding: 67px 120px;
+  position: relative;
+  z-index: 9;
+  backdrop-filter: blur(90px);
+  border-top: #FFBE3E solid 2px;
+
+  display: flex;
+  justify-content: space-between;
+  p {
+    color: #fff;
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 200;
+  }
+
+  .contentRight {
+    display: flex;
+    gap: 50px;
+    p {
+        &:first-child {
+            font-weight: 700;
+            color: #FFBE3E;
+        }
+    }
+  }
+}
