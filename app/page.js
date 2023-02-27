@@ -13,8 +13,8 @@ import Footer from '@/components/Footer/Footer'
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Navigation />
       <div className={styles.sectionOneTwoBackgrounds}>
-        <Navigation />
         <Hero />
         <BelowFold />
       </div>
