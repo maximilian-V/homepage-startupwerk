@@ -7,6 +7,7 @@ import BelowFold from '@/components/BelowFold/BelowFold.jsx'
 import Herausforderungn from '@/components/Herausforderungen/Herausforderungn'
 import Erfolgsgeschichte from '@/components/Erfolgsgeschichte/Erfolgsgeschichte'
 import KreativeKoepfe from '@/components/KreativeKoepfe/KreativeKoepfe'
+import Kontakt from '@/components/Kontakt/Kontakt'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Herausforderungn />
         <Erfolgsgeschichte />
         <KreativeKoepfe />
+        <Kontakt />
       </div>
 
       

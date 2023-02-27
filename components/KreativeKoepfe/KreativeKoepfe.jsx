@@ -19,24 +19,24 @@ function KreativeKoepfe() {
                 </div>
                 <div>
                     <h2>Verfasser</h2>
-                    <p>einer digitalen Welt</p>
+                    <p>Der richtigen Worte</p>
                 </div>
                 <div>
                     <h2>Konzeptionisten</h2>
-                    <p>einer digitalen Welt</p>
+                    <p>neue Prozesse</p>
                 </div>
                 <div>
                     <h2>Planer</h2>
-                    <p>einer digitalen Welt</p>
+                    <p>Mit dem Blick fürs Detail</p>
                 </div>
                 <div>
                     <h2>Koordinatoren</h2>
-                    <p>einer digitalen Welt</p>
+                    <p>Für effiziente Abläufe</p>
                 </div>
             </div>
         </div>
         <p>Eure Vorstellung – unsere Expertise. Ein starkes Projekt startet mit einem starken Team: Gemeinsam treiben wir die digitale Innovationskultur eures Unternehmens voran.  
-        Kreative Persönlichkeiten mit ausgeprägter technischer Expertise beraten, konzeptionieren, begleiten und sensibilisieren euch auf dem Weg in die digitale Zukunft. Ihr habt eine Vision? Wir haben ein Ziel</p>
+        Kreative Persönlichkeiten mit ausgeprägter technischer Expertise beraten, konzeptionieren, begleiten und sensibilisieren euch auf dem Weg in die digitale Zukunft. Ihr habt eine Vision? Wir haben ein Ziel!</p>
     </section>
   )
 }
