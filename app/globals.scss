@@ -59,6 +59,7 @@ html {
 body {
   height: 100%;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 
@@ -74,4 +75,10 @@ h1 {
 h2 {
   font-family: 'Itc';
   font-weight: 500;
+  font-size: 80px;
+  color: $sw-yellow;
+}
+
+p {
+  font-family: Avenir, sans-serif;
 }

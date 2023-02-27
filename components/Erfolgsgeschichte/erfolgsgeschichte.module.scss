@@ -1,0 +1,105 @@
+.wrapper {
+    margin-top: 220px;
+    padding: 0 120px;
+    display: flex;
+    align-items: center;
+
+    .contentContainer {
+        display: flex;
+    }
+
+    .numberWrapper {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            text-align: center;
+            font-size: 60px;
+        }
+
+        div {
+            
+        }
+
+        div h2 {
+            font-weight: 600;
+
+            &:nth-child(2) {
+                color: #fff;
+                font-size: 46px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .leftSide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 53%;
+        gap: 45px;
+        p  {
+            font-weight: 200;
+            line-height: 49;
+        }
+        h2 {
+            line-height: 80px;
+        }
+    }
+
+    .rightSide {
+        text-align: right;
+        height: 1150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 135px;  
+        
+        img {
+            &:first-of-type {
+                right: -300px;
+            }
+            &:nth-of-type(2) {
+                right: -40px;
+            }
+        }
+
+        div {
+            display: flex;
+            justify-content: end;
+        }
+        
+        p, span {
+            width: 80%;
+            color: #1C272B;
+            font-size: 24px;
+            position: relative;
+            z-index: 2;
+        }
+        span {
+            font-weight: 600;
+        }
+    }
+
+    .clientImage {
+        position: relative;
+        z-index: 2;
+    }
+
+    .absoluteBlob {
+        position: absolute;
+        z-index: 1;
+    }
+
+
+
+    span {
+        color: #fff;
+        font-size: 60px;
+        font-weight: 200;
+    }
+    
+    p {
+        color: #fff;
+        font-size: 36px;
+    }
+}

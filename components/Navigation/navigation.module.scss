@@ -4,6 +4,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 99;
     .img {
         padding: 30px;
     }
@@ -13,7 +14,7 @@
 
     ul {
         border-radius: 0 0 0 90px;
-        padding: 30px 30px 30px 90px;
+        padding: 20px 30px 20px 90px;
         background-color: #FBBD40;
         display: flex;
         list-style: none;
