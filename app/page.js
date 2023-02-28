@@ -10,19 +10,25 @@ import KreativeKoepfe from '@/components/KreativeKoepfe/KreativeKoepfe'
 import Kontakt from '@/components/Kontakt/Kontakt'
 import Footer from '@/components/Footer/Footer'
 
+
+import useWindowDimensions from '@/components/functionalComponents/GetWindowDimensions'
+
+
 export default function Home() {
+
+
   return (
     <main className={styles.main}>
-      <Navigation />
-      <div className={styles.sectionOneTwoBackgrounds}>
-        <Hero />
-        <BelowFold />
-      </div>
-        <Herausforderungn />
-        <Erfolgsgeschichte />
-        <KreativeKoepfe />
-        <Kontakt />
-        <Footer />
+        <Navigation />
+        <div className={styles.sectionOneTwoBackgrounds}>
+          <Hero />
+          <BelowFold />
+        </div>
+          <Herausforderungn />
+          <Erfolgsgeschichte />
+          <KreativeKoepfe />
+          <Kontakt />
+          <Footer />
     </main>
   )
 }

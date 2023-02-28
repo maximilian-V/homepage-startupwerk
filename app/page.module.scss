@@ -15,12 +15,35 @@
         1400px 900px;
     background-size: 
         cover, 
-        1500px, 
+        500px, 
         auto,
-        580px;
+        260px;
     background-repeat: 
         no-repeat, 
         no-repeat,
         no-repeat,
         no-repeat;
+
+        @media(max-width: 1024px){
+            background-image: 
+            url(../public/background-blob.png), 
+            url(../public/line-left.png), 
+            url(../public/blur.png),
+            url(../public/blob-right.png);
+            background-position: 
+                -30px -300px, 
+                -1000px -200px, 
+                700px 200px,
+                50vw 60vh;
+            background-size: 
+                817px, 
+                1500px, 
+                auto,
+                580px;
+            background-repeat: 
+                no-repeat, 
+                no-repeat,
+                no-repeat,
+                no-repeat;
+        }
 }

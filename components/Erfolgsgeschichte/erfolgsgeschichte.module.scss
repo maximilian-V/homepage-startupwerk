@@ -1,8 +1,12 @@
 .wrapper {
     margin-top: 220px;
-    padding: 0 120px;
+    padding: 0 40px 0 120px;
     display: flex;
     align-items: center;
+    @media(max-width: 1024px) {
+        flex-direction: column;
+        padding: 0 20px;
+    }
 
     .contentContainer {
         display: flex;
@@ -14,10 +18,6 @@
         h2 {
             text-align: center;
             font-size: 60px;
-        }
-
-        div {
-            
         }
 
         div h2 {
@@ -35,32 +35,38 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-width: 53%;
+        width: 53%;
         gap: 45px;
-        p  {
+        
+        @media(max-width: 1024px) {
+            width: 100%;
+            span {
+                font-size: 36px;
+                line-height: 60px;
+            }
+            p {
+                font-size: 24px;
+            }
+        }
+        p {
             font-weight: 200;
-            line-height: 49;
         }
         h2 {
             line-height: 80px;
         }
+
     }
 
     .rightSide {
         text-align: right;
         height: 1150px;
+        width: 47%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-left: 135px;  
+        justify-content: center; 
         
-        img {
-            &:first-of-type {
-                right: -300px;
-            }
-            &:nth-of-type(2) {
-                right: -40px;
-            }
+        @media (max-width: 1024px) {
+            width: 100%;
         }
 
         div {
@@ -81,13 +87,35 @@
     }
 
     .clientImage {
+        right: -40px;
         position: relative;
         z-index: 2;
+
+        @media (max-width: 1366px) {
+            right: -40px;
+        }
+
+
     }
 
     .absoluteBlob {
+        right: -300px;
         position: absolute;
         z-index: 1;
+
+        @media (max-width: 1366px) {
+            right: -200px;
+        }
+
+        @media (max-width: 1024px) {
+            right: -280px;
+        }
+    }
+
+    .hiddenTabletMobile {
+        @media(max-width: 1024px) {
+            display: none;
+        }
     }
 
 

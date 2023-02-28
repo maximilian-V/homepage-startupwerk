@@ -1,9 +1,14 @@
 .sectionWrapper {
 
+
+
     padding: 0 0 0 120px;
+    
+    @media(max-width: 1024px) {
+                padding: 190px 20px;
+            }
 
     h2 {
-        font-size: 80px;
         color: #FBBD40;
         margin-bottom: 60px;
     }
@@ -19,10 +24,49 @@
     .contentContainer {
         display: flex;
         position: relative;
-        .absoluteBlob {
+
+        @media(max-width: 1024px) {
+            flex-direction: column-reverse;   
+        }
+   
+
+        .textContainer, .imageContainer {
+            @media(max-width: 1024px) {
+                width: 100%;
+            }
+        }
+
+        .imageContainer {
+            @media(max-width: 1024px) {
+                display: flex;
+                justify-content: end;
+                margin-bottom: 150px;
+                margin-left: 160px;
+                margin-right: -160px;
+            }
+        }
+
+        .blob {
             position: relative;
             bottom:120px;
             left: -90px;
+            @media(max-width: 1024px) {
+                top: 200px; 
+                left: -600px;
+            }
+        }
+        
+        .officeImage {
+            @media(max-width: 1600px) {
+                width: 700px;
+                object-fit: cover;
+            }
+            @media(max-width: 1024px) {
+                position: relative;
+                width: 543px;
+                height: 355px;
+                object-fit: cover;
+            }
         }
         p {
             margin-right: 80px;

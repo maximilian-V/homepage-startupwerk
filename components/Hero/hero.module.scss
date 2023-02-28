@@ -14,7 +14,14 @@
     }
 
     .mainContent {
-        gap: 20px
+        gap: 20px;
+
+        img {
+            @media(max-width: 1024px) {
+                width: 553px;
+                object-fit: contain;
+            }
+        }
     }
 
     .detailContainer {

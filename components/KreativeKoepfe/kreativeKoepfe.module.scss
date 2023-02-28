@@ -1,6 +1,11 @@
 .wrapper {
     padding: 0 120px;
     margin-top: 180px;
+
+    @media(max-width: 1024px) {
+        padding: 0 20px;
+    }
+
     h2 {
         text-align: right;
     }
@@ -8,6 +13,9 @@
     p {
         color: #fff;
         font-size: 36px;
+        @media(max-width: 1024px) {
+            font-size: 24px !important;
+        }
     }
 
     .imageContainer {
@@ -24,6 +32,10 @@
         position: absolute;
         transition: 0.2s;
         z-index: 1;
+        @media(max-width: 1024px) {
+            width: 434px;
+            height: 374px;
+        }
     }
 
     .flexContainer {
@@ -51,11 +63,26 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
+        @media(max-width: 1024px) {
+            margin-left: 20px;
+            h2, p {
+                font-size: 24px;
+                text-align: left;
+            }
+            
+        }
     }
 
 
     img {
         position: relative;
         z-index: 2;
+        @media(max-width: 1024px) {
+            width: 434px;
+            height: 374px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
     }
 }

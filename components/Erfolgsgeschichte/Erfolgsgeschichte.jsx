@@ -25,7 +25,10 @@ function Erfolgsgeschichte() {
                     <h2>Umsatz</h2>
                 </div>
             </div>
-            <Button buttonText={'Whole Story'} />
+            <div className={styles.hiddenTabletMobile}>
+              <Button buttonText={'Whole Story'}/>
+            </div>
+            
         </div>
         <div className={styles.rightSide}>
             <Image src={absoluteBlob} className={styles.absoluteBlob} alt='background graphic in logo style' />
