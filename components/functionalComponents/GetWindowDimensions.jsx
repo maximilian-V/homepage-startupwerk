@@ -1,8 +1,12 @@
-'use client'
+/* 'use client'
 
 import { useState, useEffect } from 'react';
 
+
 function getWindowDimensions() {
+  
+  if (typeof window === "undefined") return null;
+
   const { innerWidth: screenWidth, innerHeight: screenHeight } = window;
   return {
     screenWidth,
@@ -23,4 +27,4 @@ export default function useWindowDimensions() {
   }, []);
 
   return windowDimensions;
-}
+} */

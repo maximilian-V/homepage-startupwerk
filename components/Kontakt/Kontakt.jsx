@@ -8,18 +8,19 @@ import Button from "../reusableComponents/Button"
 
 import styles from './kontakt.module.scss'
 
-import useWindowDimensions from "../functionalComponents/GetWindowDimensions"
+/* import useWindowDimensions from "../functionalComponents/GetWindowDimensions" */
 
 function Kontakt() {
 
-    const {screenWidth, screenHeight} = useWindowDimensions();
+    /* const {screenWidth, screenHeight} = useWindowDimensions(); */
 
 
 
   return (
     <>
     <div>
-        { screenWidth >= 1024 && <section className={styles.wrapper}>
+        {/* { screenWidth >= 1024 &&  */}
+        <section className={styles.wrapper}>
             <div>
             </div>
             <div className={styles.leftSection}>
@@ -52,9 +53,10 @@ function Kontakt() {
                 <p>Ruft uns an, schreibt eine Mail oder vereinbart direkt einen Termin. Gemeinsam beginnen/starten/beleben/investieren/wahren wir in eure digitale Zukunft. </p>
                 <Button buttonText={'Beratungstermin vereinbaren'}/>
             </div>
-        </section>}
+        </section>
+        {/* } */}
     </div>
-    <div>
+    {/* <div>
     { screenWidth <= 1024 && 
         <section className={styles.wrapper}>
             <h2>Eure Herausforderung -<br/> unser Element</h2>
@@ -88,7 +90,7 @@ function Kontakt() {
                 </div>
             </div>
         </section>}
-    </div>
+    </div> */}
 </>
 
   )

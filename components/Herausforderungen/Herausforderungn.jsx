@@ -5,16 +5,16 @@ import firstImage from 'public/heraus_01.png'
 
 import styles from './herausforderungen.module.scss'
 
-import useWindowDimensions from "../functionalComponents/GetWindowDimensions"
+/* import useWindowDimensions from "../functionalComponents/GetWindowDimensions" */
 
 function Herausforderungn() {
 
-   const {screenWidth, screenHeight} = useWindowDimensions();
+  /*  const {screenWidth, screenHeight} = useWindowDimensions(); */
   
 
   return (
       <section className={styles.wrapper}>
-        { screenWidth >= 1024 &&
+        {/* { screenWidth >= 1024 && */}
         <div>
             <div>
                 <h2>Herausforderungen</h2>
@@ -49,8 +49,8 @@ function Herausforderungn() {
                 </div>
             </div>
         </div>
-        }
-        { screenWidth <= 1024 &&
+        {/* } */}
+        {/* { screenWidth <= 1024 &&
             <div>
                 <div>
                     <h2>Herausforderungen</h2>
@@ -87,7 +87,7 @@ function Herausforderungn() {
                     </div>
                 </div>
             </div>
-        }
+        } */}
 
     </section>
   )

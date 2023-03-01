@@ -9,9 +9,9 @@ function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.mainContent}>
-        <p>Lorum ipsum</p>
+        <p>Partner, nicht Kunden - </p>
         <Image src={logoBig} alt='logo big'/>
-        <p>Lorem ipsum dolor sit amet,<br/> consetetur sadipscing elitr, sed</p>
+        <p>weil die besten Ideen gemeinsam entstehen</p>
       </div>
       <div className={styles.detailContainer}>
         <div className={styles.iconBox}>
