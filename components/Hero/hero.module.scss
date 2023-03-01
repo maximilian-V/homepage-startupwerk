@@ -21,6 +21,10 @@
                 width: 553px;
                 object-fit: contain;
             }
+            @media(max-width: 767px) {
+                width: 292px;
+                object-fit: contain;
+            }
         }
     }
 
@@ -34,6 +38,11 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+        svg {
+            @media(max-width: 767px) {
+                display: none;
+            }
+        }
     }
 
     .scrollLine {

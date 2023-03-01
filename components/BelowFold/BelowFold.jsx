@@ -8,7 +8,7 @@ function BelowFold() {
   return (
     <section className={styles.sectionWrapper}> 
         <div>
-            <h2>So exklusiv wie ihr - so kreativ<br /> sind wir</h2>
+            <h2>Eure Vision - Unser Fokus</h2>
             <div className={styles.contentContainer}>
                 <div className={styles.textContainer}>
                   <p>

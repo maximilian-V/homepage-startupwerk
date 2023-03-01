@@ -7,6 +7,9 @@
         flex-direction: column;
         padding: 0 20px;
     }
+    @media(max-width: 767px) {
+        margin-top: 70px;
+    }
 
     .contentContainer {
         display: flex;
@@ -15,6 +18,10 @@
     .numberWrapper {
         display: flex;
         justify-content: space-between;
+        @media(max-width: 767px) {
+            flex-direction: column;
+            gap: 60px;
+        }
         h2 {
             text-align: center;
             font-size: 60px;
@@ -43,6 +50,10 @@
             span {
                 font-size: 36px;
                 line-height: 60px;
+                @media(max-width: 767px) {
+                    font-size: 20px;
+                    line-height: 32px !important;
+                }
             }
             p {
                 font-size: 24px;
@@ -52,7 +63,7 @@
             font-weight: 200;
         }
         h2 {
-            line-height: 80px;
+            // line-height: 80px;
         }
 
     }
@@ -69,6 +80,11 @@
             width: 100%;
         }
 
+        @media(max-width: 767px) {
+            margin-top: 90px;
+            height: auto;
+        }
+
         div {
             display: flex;
             justify-content: end;
@@ -80,6 +96,10 @@
             font-size: 24px;
             position: relative;
             z-index: 2;
+            @media(max-width: 767px) {
+                padding-top: 18px;
+                font-size: 16px;
+            }
         }
         span {
             font-weight: 600;
@@ -93,6 +113,11 @@
 
         @media (max-width: 1366px) {
             right: -40px;
+        }
+        @media(max-width: 767px) {
+            right: 20px;
+            width: 418px;
+            height: 313px;
         }
 
 
@@ -109,6 +134,12 @@
 
         @media (max-width: 1024px) {
             right: -280px;
+        }
+
+        @media(max-width: 767px) {
+            right: -150px;
+            width: 512px;
+            height: 574px;
         }
     }
 

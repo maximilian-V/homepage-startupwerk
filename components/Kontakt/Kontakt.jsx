@@ -84,7 +84,7 @@ function Kontakt() {
                     </div>
                 </div>
                 <div>
-                    <p>Ruft uns an, schreibt eine Mail oder vereinbart direkt einen Termin. Gemeinsam beginnen/starten/beleben/investieren/wahren wir in eure digitale Zukunft. </p>
+                    <p>Ruft uns an, schreibt eine Mail oder vereinbart direkt einen Termin. Gemeinsan starten wir in eure digitale Zukunft. </p>
                 </div>
             </div>
         </section>}
