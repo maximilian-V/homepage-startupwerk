@@ -29,6 +29,7 @@ export default function Home() {
           <KreativeKoepfe />
           <Kontakt />
           <Footer />
+          
     </main>
   )
 }
